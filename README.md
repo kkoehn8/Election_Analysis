@@ -33,6 +33,7 @@ The analysis showed the following results:
     - Diana DeGette with 272,892 or 73.8% of the total votes.
 
 The final results were printed to a file and a screen capture of that file is shown below.
+
 ![my_analysis](https://github.com/kkoehn8/Election_Analysis/blob/main/ElectionSummaryResults.PNG)
 
 ##Summary 
