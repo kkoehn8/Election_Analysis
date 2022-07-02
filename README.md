@@ -33,11 +33,12 @@ The analysis showed the following results:
     - Diana DeGette with 272,892 or 73.8% of the total votes.
 
 The final results were printed to a file and a screen capture of that file is shown below.
-![my_analysis](ElectionSummaryResults.png)
+![my_analysis](https://github.com/kkoehn8/Election_Analysis/blob/main/ElectionSummaryResults.PNG)
 
 ##Summary 
+The code that has been created for this challenge could easily be refactored and used for a vaireity of types of different election analyses. Since the raw data is provided in a csv file to use this script for different analysis we would need to be provided with a different csv file containing the new data to be analysed. Below are listed two examples of how this script could be modified and resused.
 
+1. The script could be used for a state-wide election in any state. The code is not specific to a certain state, the script steps through the data in a provided csv file. If that file contains the same data structure (i.e. Ballot ID, County, Candidate) for another state the script could be run with few modifications except ensuring the input file is pointing to the correct data. 
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
- 
+2. The script could be used for different levels of government, for example, to conduct an analysis of the US Presidential Election. If the source data had columns for  Ballot ID, State, and Candidate the code could be refactored to determine the winner, how many votes they received and the percentage of votes they received. Additionally the analysis could be conducted to determine the total votes and percentage per State. If the script were to be used for this level we would want to change the reference from County to State in the script so it can be more easily read by other developers and we would need to change the terminology for our print statements. While the code may be easily refactored to conduct the analysis at the Federal level instead of the State level there could be challenges with getting all the data for a Federal election into a csv file (I'm not sure if there are row limits to a csv file). Additionally, it will probalby take much longer to run the analysis at the Federal level. I suspect we may learn better metnoed to deal with larger volumes of data later in the course.   
  
