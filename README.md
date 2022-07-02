@@ -36,7 +36,7 @@ The final results were printed to a file and a screen capture of that file is sh
 
 ![my_analysis](https://github.com/kkoehn8/Election_Analysis/blob/main/ElectionSummaryResults.PNG)
 
-##Summary 
+## Summary
 The code that has been created for this challenge could easily be refactored and used for a vaireity of types of different election analyses. Since the raw data is provided in a csv file to use this script for different analysis we would need to be provided with a different csv file containing the new data to be analysed. Below are listed two examples of how this script could be modified and resused.
 
 1. The script could be used for a state-wide election in any state. The code is not specific to a certain state, the script steps through the data in a provided csv file. If that file contains the same data structure (i.e. Ballot ID, County, Candidate) for another state the script could be run with few modifications except ensuring the input file is pointing to the correct data. 
