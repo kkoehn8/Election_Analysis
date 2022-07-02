@@ -10,12 +10,17 @@ A Colorado Board of Elections employee has give us the following tasks to comple
 5. The winner of the election based on popular vote.
 
 ## Resources
- - Date Source: election_results.csv
+ - Date Source: election_results.csv, PyPoll_Challenge_starter_code.py
  - Software: Python 3.7.6, Visual Studio Code 1.68.1
  
-## Summary
+## Results
 The analysis showed the following results:
 - There were a total of 369,711 votes cast in the election
+- The county summary for the election was:
+    - Jefferson cast 10.5% of the votes for a county total of 38,855 votes.
+    - Denver cast 82.8% of the votes for a county total of 306,055 votes. 
+    - Arapahoe cast 6.7% of the votes for a county total of 24,801 votes. 
+- The county with the most votes was Denver
 - The candidates were: 
     - Charles Casper Stockham
     - Diana DeGette
@@ -27,8 +32,12 @@ The analysis showed the following results:
 - The winner of the election was:
     - Diana DeGette with 272,892 or 73.8% of the total votes.
 
+The final results were printed to a file and a screen capture of that file is shown below.
+![my_analysis](ElectionSummaryResults.png)
 
- 
- 
+##Summary 
+
+
+Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
  
  
